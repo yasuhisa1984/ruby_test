@@ -1,0 +1,5 @@
+<h1>メッセージ一覧</h1>
+<% @note.each do |note| %>
+    タイトル:<h2><%= note.title %></h2>
+    内容:<h2><%= note.content %></h2>
+<% end %>
